@@ -7,8 +7,8 @@ public class Esercizio1 {
         String prompt = ("Inserisci un numero: ");
         
         int value;
-        double somma=0;
-        double media=0;
+        
+        
         int n=0;
         do { 
         	System.out.print(prompt);
