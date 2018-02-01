@@ -6,7 +6,6 @@ public class java_exercises {
 		Scanner in = new Scanner(System.in);
 		double v1;
 		int v2 = 0;
-		double media;
 		double sum = 0;
 		System.out.print("waiting for insert");
 		
@@ -22,10 +21,10 @@ public class java_exercises {
 		} while (v1 >= 0);
 		 
 		
-		media = sum / v2;
+		
 		
 		System.out.println("La somma dei numeri inseriti è: " + sum);
-		System.out.println("La media dei numeri inseriti è: " + media);
+		System.out.println("La media dei numeri inseriti è: " + (sum/v2));
 		
 		
 
