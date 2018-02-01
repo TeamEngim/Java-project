@@ -7,14 +7,14 @@ public class Esercizio1 {
         String prompt = ("Inserisci un numero: ");
         
         int value;
-        double somma=0;
-        double media=0;
+        
+        
         int n=0;
         do { 
         	System.out.print(prompt);
             while (!scanner.hasNextInt()) {
                 scanner.next();
-                System.out.println("Il valore immesso non è valido!");
+                System.out.println("Il valore immesso non Ã¨ valido!");
                 System.out.println(prompt);
             }
             value = scanner.nextInt();
@@ -25,8 +25,8 @@ public class Esercizio1 {
                 }    
                 
         }while(value >=0);
-            System.out.println("La somma dei numeri inseriti è: " +somma);
-            System.out.println("La media dei numeri inseriti è: " +media);
+            System.out.println("La somma dei numeri inseriti Ã¨: " +somma);
+            System.out.println("La media dei numeri inseriti Ã¨: " +media/2);
     }
 
 }
